@@ -18,7 +18,7 @@ chargeBeginEffect: lancerLaserChargeBegin
 targetAir: true
 shootSound: laser
 rotateSpeed: 100
-bullet: {
+shootType: {
    type: LaserBulletType
    hitEffect: hitLancer
    damage: 295
