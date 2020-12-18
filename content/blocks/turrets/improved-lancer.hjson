@@ -9,7 +9,7 @@ powerUse: 12
 shootShake: 2
 chargeTime: 50
 chargeMaxDelay: 30
-chargeEffects: lancerLaserCharge
+chargeEffect: lancerLaserCharge
 reloadTime: 90
 cooldown: 0.03
 shootEffect: lancerLaserShoot
