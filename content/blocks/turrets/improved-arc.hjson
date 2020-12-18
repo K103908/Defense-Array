@@ -5,12 +5,12 @@ size: 1
 range: 150
 reloadTime: 80
 shootSound: spark
-shootCone: 10
+shootCone: 5
 shots: 10
 shootType: {
   type: LightningBulletType
   lightningLength: 30
-  damage: 65
+  damage: 110
 }
 rotateSpeed: 100
 powerUse: 1
