@@ -1,14 +1,15 @@
 localizedName: Improved Arc
 description: The arc stregthened with steel. Improving its electrical output with coils.
-size: 2
+health: 300
+size: 1
 range: 150
 reloadTime: 80
 shootSound: spark
-shootCone: 40
+shootCone: 25
 shots: 50
 shootType: {
   type: LightningBulletType
-  lightningLength: 15
+  lightningLength: 30
   damage: 65
 }
 rotateSpeed: 100
@@ -26,6 +27,5 @@ requirements: [
   steel/225
 ]
 type: PowerTurret
-health: 250
 category: turret
 research: arc
