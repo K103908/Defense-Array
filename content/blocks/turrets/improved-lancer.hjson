@@ -1,4 +1,4 @@
-type: ChargeTurret
+type: PowerTurret
 localizedName: Empowered-Lancer
 description: A lancer with increased power and fire rate.
 size: 3
