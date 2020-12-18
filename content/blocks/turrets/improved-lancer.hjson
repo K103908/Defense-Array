@@ -15,7 +15,6 @@ cooldown: 0.03
 shootEffect: lancerLaserShoot
 smokeEffect: none
 chargeBeginEffect: lancerLaserChargeBegin
-heatColor: red
 targetAir: true
 shootSound: laser
 rotateSpeed: 100
