@@ -19,7 +19,7 @@ targetAir: true
 shootSound: laser
 rotateSpeed: 100
 bullet: {
-   bulletType: LaserBulletType
+   Type: LaserBulletType
    hitEffect: hitLancer
    damage: 295
    despawnEffect: none
