@@ -28,3 +28,7 @@ bullet: {
    drawSize: 400
    collidesAir: false
  }
+category: turret
+research: lancer
+requirements: [
+    ]
