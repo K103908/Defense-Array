@@ -1,0 +1,30 @@
+type: ChargeTurret
+localizedName: Empowered-Lancer
+description: A lancer with increased power and fire rate.
+size: 3
+health: 1255
+hasLiquid: yes
+range: 155
+recoilAmount: 15
+powerUse: 12
+shootShake: 2
+chargeTime: 50
+chargeMaxDelay: 30
+chargeEffects: lancerLaserCharge
+reloadTime: 90
+cooldown: 0.03
+shootEffect: lancerLaserShoot
+smokeEffect: none
+chargeBeginEffect: lancerLaserChargeBegin
+heatColor: red
+targetAir: true
+shootSound: laser
+bullet: {
+   bulletType: LaserBulletType
+   hitEffect: hitLancer
+   despawnEffect: none
+   hitSize: 4
+   lifeTime: 16
+   drawSize: 400
+   collidesAir: false
+ }
