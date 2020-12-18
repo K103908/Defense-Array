@@ -19,6 +19,7 @@ chargeBeginEffect: lancerLaserChargeBegin
 heatColor: red
 targetAir: true
 shootSound: laser
+rotateSpeed: 100
 bullet: {
    bulletType: LaserBulletType
    hitEffect: hitLancer
