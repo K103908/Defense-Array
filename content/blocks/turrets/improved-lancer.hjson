@@ -22,6 +22,7 @@ shootSound: laser
 bullet: {
    bulletType: LaserBulletType
    hitEffect: hitLancer
+   damage: 295
    despawnEffect: none
    hitSize: 4
    lifeTime: 16
