@@ -3,7 +3,6 @@ localizedName: Empowered-Lancer
 description: A lancer with increased power and fire rate.
 size: 3
 health: 1255
-hasLiquid: yes
 range: 155
 recoilAmount: 15
 powerUse: 12
