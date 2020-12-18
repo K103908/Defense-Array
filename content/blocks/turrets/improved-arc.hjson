@@ -5,8 +5,8 @@ size: 1
 range: 150
 reloadTime: 80
 shootSound: spark
-shootCone: 25
-shots: 50
+shootCone: 10
+shots: 10
 shootType: {
   type: LightningBulletType
   lightningLength: 30
