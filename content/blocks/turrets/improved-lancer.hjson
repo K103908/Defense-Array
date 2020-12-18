@@ -3,14 +3,14 @@ localizedName: Empowered-Lancer
 description: A lancer with increased power and fire rate.
 size: 3
 health: 1255
-range: 155
-recoilAmount: 15
+range: 255
+recoilAmount: 5
 powerUse: 12
 shootShake: 2
-chargeTime: 50
-chargeMaxDelay: 30
+chargeTime: 30
+chargeMaxDelay: 10
 chargeEffect: lancerLaserCharge
-reloadTime: 90
+reloadTime: 30
 cooldown: 0.03
 shootEffect: lancerLaserShoot
 smokeEffect: none
