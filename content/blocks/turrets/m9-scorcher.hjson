@@ -15,6 +15,21 @@ shootSound: flame
 ammoTypes: {
   coal: {
     bullet: basicFlame
+    bulletSprite: fireball
+    speed: 12
+    damage: 225
+    lifetime: 25
+    shootEffect: shootSmallFlame
+    hitEffect: hitFlameSmall
+    status: burning
+    colldiesAir: false
+    pierce: true
+    lifeTime: 25
+    hitSize: 15
+    keepVelocity: false
+    hittable: false
+    ammoMultiplier: 5
+    hitShake: 1
   }
   pyratite: {
     speed: 12
