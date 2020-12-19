@@ -22,11 +22,11 @@ ammoTypes: {
      shootEffect: shootPyraFlame
      smokeEffect: shootPyraFlame
      lifetime: 15
-   	 despawnEffect: none
-	   hitEffect: shootBigSmoke
-	   status: melting
-	   pierce: true
-	   incendAmount: 1000
+     despawnEffect: none
+     hitEffect: shootBigSmoke
+     status: melting
+     pierce: true
+     incendAmount: 500
   }
   pyratite: {
      type: BasicBulletType
@@ -37,11 +37,11 @@ ammoTypes: {
     shootEffect: shootPyraFlame
     smokeEffect: fire
     lifetime: 15
-  	despawnEffect: fire
-	  hitEffect: shootPyraFlame
-	  status: melting
-	  pierce: true
-	  incendAmount: 5
+    despawnEffect: fire
+    hitEffect: shootPyraFlame
+    status: melting
+    pierce: true
+    incendAmount: 1000
    }
 }
 category: turret
