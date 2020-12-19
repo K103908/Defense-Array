@@ -9,10 +9,11 @@ shootCone: 25
 ammoUseEffect: none
 shootEffect: shootSmallFlame
 rotateSpeed: 10
-recoilAmmount: 1
+recoilAmmount: 0
 shots: 25
 ammoTypes: {
   coal: {
+    type: scorch
     speed: 12
     damage: 225
     lifetime: 120
