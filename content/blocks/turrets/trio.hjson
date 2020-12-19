@@ -32,4 +32,5 @@ ammoTypes: {
     hitShake: 1
      }
   }
-  category: turret
+category: turret
+research: arc
