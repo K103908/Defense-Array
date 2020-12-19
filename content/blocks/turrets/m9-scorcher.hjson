@@ -18,32 +18,33 @@ ammoTypes: {
     speed: 10
     lifetime: 15
     damage: 225
-    width: 0.15
-    height: 0.12
-    shootEffect: shootPyraFlame
-    smokeEffect: shootPyraFlame
+    width: 5
+    height: 5
+    shootEffect: shootSmallFlame
+    smokeEffect: shootSmallFlame
     lifetime: 15
     despawnEffect: none
     hitEffect: shootBigSmoke
     status: melting
     pierce: true
-    incendAmount: 100
+    incendAmount: 500
   }
   pyratite: {
-    speed: 12
+    type: BasicBulletType
+    speed: 10
+    lifetime: 15
+    speed: 5
     damage: 325
-    lifetime: 120
+    width: 10
+    height: 10
     shootEffect: shootPyraFlame
-    hitEffect: hitFlameSmall
-    status: burning
-    colldiesAir: false
-    pierce: true
-    lifeTime: 25
-    hitSize: 15
-    keepVelocity: false
-    hittable: false
-    ammoMultiplier: 5
-    hitShake: 1
+    smokeEffect: fire
+    lifetime: 15
+	  despawnEffect: fire
+  	hitEffect: shootPyraFlame
+  	status: melting
+  	pierce: true
+  	incendAmount: 1000
    }
 }
 category: turret
