@@ -5,9 +5,6 @@ health: 150
 size: 1
 range: 150
 reloadTime: 20
-alternate: true
-shots: 3
-spread: 3
 shootCone: 25
 ammoUseEffect: casing1
 shootEffect: shootBig
