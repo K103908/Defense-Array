@@ -15,4 +15,5 @@ author:
   (Spriter, Hjsoner, [#5c0606]Lost in scripting hell[#FCC21B])
 
   '''
+version: 1
 minGameVersion: 119
