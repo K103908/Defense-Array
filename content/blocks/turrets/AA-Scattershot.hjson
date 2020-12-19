@@ -1,6 +1,8 @@
 type: ItemTurret
 localizedName: AA-Scattershot
 description: A scatter improved with better AA Artillery. 
+targetGround: false
+targetAir: true
 health: 150
 size: 2
 range: 250
