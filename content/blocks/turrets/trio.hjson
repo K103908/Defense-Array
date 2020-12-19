@@ -34,6 +34,6 @@ ammoTypes: {
      }
   }
 category: turret
-research: arc
+research: duo
 requirements: [
     ]
