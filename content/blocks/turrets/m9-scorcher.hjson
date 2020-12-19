@@ -15,7 +15,8 @@ shootSound: flame
 ammoTypes: {
   coal: {
     type: BasicBulletType
-    speed: 5
+    speed: 10
+    lifetime: 15
     damage: 225
     width: 0.15
     height: 0.12
