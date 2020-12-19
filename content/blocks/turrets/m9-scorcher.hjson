@@ -15,12 +15,18 @@ rotateSpeed: 10
 recoilAmmount: 1
 ammoTypes: {
   coal: {
-    type: BasicFlame
     speed: 12
     damage: 225
     lifetime: 120
-    shootEffect: shootBig
-    smokeEffect: shootBigSmoke
+    shootEffect: shootLargeFlame
+    smokeEffect: hitFlameLarge
+    status: burning
+    colldiesAir: false
+    pierce: true
+    lifeTime: 25
+    hitSize: 15
+    keepVelocity: false
+    hittable: false
     ammoMultiplier: 5
     hitShake: 1
   }
@@ -28,8 +34,8 @@ ammoTypes: {
     speed: 12
     damage: 290
     lifetime: 120
-    shootEffect: shootBig
-    smokeEffect: shootBigSmoke
+    shootEffect: 
+    smokeEffect: 
     ammoMultiplier: 5
     hitShake: 1
      }
