@@ -1,6 +1,6 @@
 type: ItemTurret
 localizedName: "M9 Scorcher"
-description: A Scorcher with a larger flame.
+description: A Scorcher with a larger flame. Firing Pyratite from this will deploy a wall of fire.
 health: 1500
 size: 2
 range: 100
