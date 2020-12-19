@@ -12,7 +12,6 @@ rotateSpeed: 10
 recoilAmmount: 1
 ammoTypes: {
   coal: {
-    type: BulletType
     speed: 12
     damage: 225
     lifetime: 120
@@ -28,8 +27,24 @@ ammoTypes: {
     ammoMultiplier: 5
     hitShake: 1
   }
+  pyratite: {
+    speed: 12
+    damage: 325
+    lifetime: 120
+    shootEffect: shootPyraFlame
+    hitEffect: hitFlameSmall
+    status: burning
+    colldiesAir: false
+    pierce: true
+    lifeTime: 25
+    hitSize: 15
+    keepVelocity: false
+    hittable: false
+    ammoMultiplier: 5
+    hitShake: 1
+   }
 }
 category: turret
-research: duo
+research: scorch
 requirements: [
     ]
