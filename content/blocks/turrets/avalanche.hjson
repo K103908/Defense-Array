@@ -2,9 +2,11 @@ type: ItemTurret
 localizedName: Avalanche
 description: A hail now produced to be a long range artillery.
 health: 2000
+targetAir: false
+targetGround: true
 size: 2
 range: 500
-reloadTime: 120
+reloadTime: 100
 alternate: true
 shots: 2
 spread: 6
@@ -13,6 +15,7 @@ ammoUseEffect: casing1
 shootEffect: shootBig
 rotateSpeed: 10
 recoilAmmount: 1
+shootSound: bang
 ammoTypes: {
   copper: {
     type: artilleryBulletType
@@ -26,6 +29,22 @@ ammoTypes: {
     status: freezing
     splashDamage: 200
     splashDamageRadius: 100
+    fragBullet: 10
+    frag: [
+      type: artilleryBulletType
+      speed: 5
+      damage: 225
+      lifetime: 100
+      hitShake: 1
+      status: burning
+      splashDamage: 200
+      splashDamageRadius: 100
+      homingRange: 500
+      homingPower: 90
+      makeFire: true
+      incendAmount: 2000
+      incendSpread: 10
+    ]
   }
 }
 category: turret
