@@ -13,3 +13,4 @@ shootEffect: shootBig
 rotateSpeed: 10
 recoilAmmount: 1
 damage: 26
+category: turret
