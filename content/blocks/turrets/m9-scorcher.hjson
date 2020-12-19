@@ -11,11 +11,10 @@ shootEffect: shootSmallFlame
 rotateSpeed: 10
 recoilAmmount: 0
 shots: 25
-shootType: [
-  type: basicFlame
- ]
+shootSound: flame
 ammoTypes: {
   coal: {
+    bulletType: basicFlame
     speed: 12
     damage: 225
     lifetime: 120
