@@ -11,6 +11,9 @@ shootEffect: shootSmallFlame
 rotateSpeed: 10
 recoilAmmount: 0
 shots: 25
+shootType: [
+  type: basicFlame
+ ]
 ammoTypes: {
   coal: {
     speed: 12
