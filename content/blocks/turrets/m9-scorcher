@@ -1,0 +1,40 @@
+type: ItemTurret
+localizedName: "M9 Scorcher"
+description: A Scorcher with a larger flame
+health: 150
+size: 1
+range: 150
+reloadTime: 20
+alternate: true
+shots: 3
+spread: 3
+shootCone: 25
+ammoUseEffect: casing1
+shootEffect: shootBig
+rotateSpeed: 10
+recoilAmmount: 1
+ammoTypes: {
+  coal: {
+    type: basicFlame
+    speed: 12
+    damage: 225
+    lifetime: 120
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+    hitShake: 1
+  }
+  pyraxite: {
+    speed: 12
+    damage: 290
+    lifetime: 120
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+    hitShake: 1
+     }
+  }
+category: turret
+research: duo
+requirements: [
+    ]
