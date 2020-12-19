@@ -1,8 +1,8 @@
 type: ItemTurret
 localizedName: "M9 Scorcher"
-description: A Scorcher with a larger flame
-health: 150
-size: 1
+description: A Scorcher with a larger flame.
+health: 1500
+size: 2
 range: 150
 reloadTime: 20
 shootCone: 25
