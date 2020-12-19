@@ -3,7 +3,7 @@ localizedName: Avalanche
 description: A hail now produced to be a long range artillery.
 health: 2000
 size: 2
-range: 300
+range: 500
 reloadTime: 120
 alternate: true
 shots: 2
@@ -16,16 +16,16 @@ recoilAmmount: 1
 ammoTypes: {
   copper: {
     type: artilleryBulletType
-    speed: 10
+    speed: 5
     damage: 225
-    lifetime: 30
+    lifetime: 100
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 5
     hitShake: 1
-    status: burning
+    status: freezing
     splashDamage: 200
-    splashDamageRadius: 32
+    splashDamageRadius: 100
   }
 }
 category: turret
