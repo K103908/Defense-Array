@@ -28,7 +28,7 @@ ammoTypes: {
     oil: {
       drag: 0.04
     }
-    cyrofluid: {
+    cryofluid: {
        status: freezing
      }
   }
