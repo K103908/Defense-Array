@@ -30,7 +30,7 @@ ammoTypes: {
     ammoMultiplier: 5
     hitShake: 1
   }
-  pyraxite: {
+  pyratite: {
     speed: 12
     damage: 290
     lifetime: 120
