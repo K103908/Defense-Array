@@ -12,5 +12,24 @@ ammoUseEffect: casing1
 shootEffect: shootBig
 rotateSpeed: 10
 recoilAmmount: 1
-damage: 26
-category: turret
+ammoTypes: {
+  copper: {
+    speed: 12
+    damage: 225
+    lifetime: 120
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+    hitShake: 1
+  }
+  lead: {
+    speed: 12
+    damage: 290
+    lifetime: 120
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+    hitShake: 1
+     }
+  }
+  category: turret
