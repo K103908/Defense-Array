@@ -40,11 +40,11 @@ ammoTypes: {
     shootEffect: shootPyraFlame
     smokeEffect: fire
     lifetime: 15
-	  despawnEffect: fire
-  	hitEffect: shootPyraFlame
-  	status: melting
-  	pierce: true
-  	incendAmount: 1000
+    despawnEffect: fire
+    hitEffect: shootPyraFlame
+    status: melting
+    pierce: true
+    incendAmount: 1000
    }
 }
 category: turret
