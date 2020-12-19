@@ -3,7 +3,7 @@ description: A improved Duo with a third barrel.
 health: 150
 size: 1
 range: 150
-reload: 20
+reloadTime: 20
 alternate: true
 shots: 3
 spread: 3
