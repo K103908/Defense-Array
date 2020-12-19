@@ -14,34 +14,34 @@ shots: 25
 shootSound: flame
 ammoTypes: {
   coal: {
-    type: BasicBulletType
-    speed: 5
-    damage: 225
-    width: 5
-    height: 5
-    shootEffect: shootSmallFlame
-    smokeEffect: shootSmallFlame
-    lifetime: 15
-    despawnEffect: none
-    hitEffect: shootBigSmoke
-    status: melting
-    pierce: true
-    incendAmount: 500
+     type: BasicBulletType
+     speed: 5
+     damage: 20
+     width: 0.1
+     height: 0.1
+     shootEffect: shootPyraFlame
+     smokeEffect: shootPyraFlame
+     lifetime: 15
+   	 despawnEffect: none
+	   hitEffect: shootBigSmoke
+	   status: melting
+	   pierce: true
+	   incendAmount: 1000
   }
   pyratite: {
-    type: BasicBulletType
+     type: BasicBulletType
     speed: 5
-    damage: 325
-    width: 10
-    height: 10
+    damage: 32
+    width: 0.1
+    height: 0.1
     shootEffect: shootPyraFlame
     smokeEffect: fire
     lifetime: 15
-    despawnEffect: fire
-    hitEffect: shootPyraFlame
-    status: melting
-    pierce: true
-    incendAmount: 1000
+  	despawnEffect: fire
+	  hitEffect: shootPyraFlame
+	  status: melting
+	  pierce: true
+	  incendAmount: 5
    }
 }
 category: turret
