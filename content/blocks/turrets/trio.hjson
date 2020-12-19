@@ -35,3 +35,5 @@ ammoTypes: {
   }
 category: turret
 research: arc
+requirements: [
+    ]
