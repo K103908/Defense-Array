@@ -2,8 +2,8 @@ type: ItemTurret
 localizedName: AA-Scattershot
 description: A scatter improved with better AA Artillery. 
 health: 150
-size: 1
-range: 150
+size: 2
+range: 250
 reloadTime: 20
 shots: 1
 shootCone: 25
@@ -13,15 +13,16 @@ rotateSpeed: 10
 recoilAmmount: 1
 ammoTypes: {
   copper: {
-    speed: 12
+    speed: 10
     damage: 225
-    lifetime: 120
+    lifetime: 25
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 5
     hitShake: 1
     fragBullets: 5
     fragBullet: {
+      type: ShrapnelBulletType
       speed: 8.5
       damage: 700
       width: 7
@@ -36,6 +37,7 @@ ammoTypes: {
       fragVelocityMax: 1.1
       fragBullets: 5
       fragBullet: {
+        type: ShrapnelBulletType
         speed: 8
         damage: 700
         width: 3.5
