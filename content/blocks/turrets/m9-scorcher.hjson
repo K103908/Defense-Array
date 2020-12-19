@@ -3,7 +3,7 @@ localizedName: "M9 Scorcher"
 description: A Scorcher with a larger flame.
 health: 1500
 size: 2
-range: 150
+range: 15
 reloadTime: 20
 shootCone: 25
 ammoUseEffect: none
@@ -15,8 +15,7 @@ shootSound: flame
 ammoTypes: {
   coal: {
     type: BasicBulletType
-    speed: 10
-    lifetime: 15
+    speed: 5
     damage: 225
     width: 5
     height: 5
@@ -31,8 +30,6 @@ ammoTypes: {
   }
   pyratite: {
     type: BasicBulletType
-    speed: 10
-    lifetime: 15
     speed: 5
     damage: 325
     width: 10
