@@ -17,10 +17,20 @@ rotateSpeed: 10
 recoilAmmount: 1
 shootSound: bang
 ammoTypes: {
-    water
-    slag
-    oil
-    cyrofluid
+    water: {
+      knockback: 0.2
+    }
+    slag: {
+      damage: 4
+      drag: 0.04
+      status: burning
+    }
+    oil: {
+      drag: 0.04
+    }
+    cyrofluid: {
+       status: freezing
+     }
   }
 category: turrets
 research: wave
