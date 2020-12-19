@@ -18,8 +18,8 @@ ammoTypes: {
     speed: 12
     damage: 225
     lifetime: 120
-    shootEffect: shootLargeFlame
-    smokeEffect: hitFlameLarge
+    shootEffect: shootSmallFlame
+    smokeEffect: hitFlameSmall
     status: burning
     colldiesAir: false
     pierce: true
