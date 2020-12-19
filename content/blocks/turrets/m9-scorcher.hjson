@@ -14,7 +14,7 @@ shots: 25
 shootSound: flame
 ammoTypes: {
   coal: {
-    type: basicFlame
+    type: fireball
     speed: 12
     damage: 225
     lifetime: 120
