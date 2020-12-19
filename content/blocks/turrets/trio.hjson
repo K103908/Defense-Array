@@ -1,3 +1,4 @@
+type: ItemTurret
 localizedName: Trio
 description: A improved Duo with a third barrel.
 health: 150
