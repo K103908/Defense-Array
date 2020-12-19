@@ -6,10 +6,11 @@ size: 1
 range: 150
 reloadTime: 20
 shootCone: 25
-ammoUseEffect: casing1
-shootEffect: shootBig
+ammoUseEffect: none
+shootEffect: shootSmallFlame
 rotateSpeed: 10
 recoilAmmount: 1
+shots: 25
 ammoTypes: {
   coal: {
     speed: 12
