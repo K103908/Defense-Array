@@ -1,0 +1,13 @@
+type: TractorBeamTurret
+localizedName: Duality
+description: The arc stregthened with steel. Improving its electrical output with coils.
+health: 300
+size: 1
+range: 150
+reloadTime: 80
+shootSound: spark
+shootCone: 5
+requirements: [
+]
+category: turret
+research: parallax
