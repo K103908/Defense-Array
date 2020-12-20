@@ -14,7 +14,7 @@ shootEffect: shootBig
 rotateSpeed: 10
 recoilAmmount: 1
 ammoTypes: {
-    blast-compound: [
+    blast-compound: {
       type: MissileBulletType
       lifetime: 100
       speed: 5
@@ -30,8 +30,8 @@ ammoTypes: {
       despawnEffect: blastExplosion
       status: blasted
       statusDuration: 60
-     ]
-    pyratite: [
+     }
+    pyratite: {
       type: MissileBulletType
       lifetime: 100
       speed: 5
@@ -48,7 +48,8 @@ ammoTypes: {
       status: burning
       makeFire: true
       statusDuration: 60
-     surge-alloy: [
+     }
+     surge-alloy: {
       type: MissileBulletType
       lifetime: 100
       speed: 5
@@ -65,7 +66,7 @@ ammoTypes: {
       lightningDamage: 40
       lightningLength: 20
       lightning: 4
-     ]
+    }
   }
 category: turret
 research: swarmer
