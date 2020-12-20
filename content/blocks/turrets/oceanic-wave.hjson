@@ -60,3 +60,5 @@ ammoTypes: {
   }
 category: turret
 research: wave
+requirements: [
+   ]
