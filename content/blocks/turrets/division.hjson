@@ -7,7 +7,7 @@ size: 3
 shootLength: 20
 bulletDamage: 100
 range: 300
-reloadTime: 9
+reloadTime: 3
 shootSound: spark
 shootCone: 5
 consumes: {
