@@ -13,6 +13,7 @@ shootEffect: shootBig
 rotateSpeed: 10
 recoilAmmount: 1
 shootSound: bang
+shots: 35
 ammoTypes: {
      water: {
       lifetime: 49
@@ -55,7 +56,7 @@ ammoTypes: {
             ammoMultiplier: 0.4
             statusDuration: 60
             damage: 0.2
-            status: burning
+            status: freezing
      }
   }
 category: turret
