@@ -1,16 +1,19 @@
 type: TractorBeamTurret
 localizedName: Duality
-description: The arc stregthened with steel. Improving its electrical output with coils.
+description: The Duality is an upgrade from the parallax with increased range and damage.
 health: 300
 hasPower: true
 size: 3
 force: 8
 scaledForce: 7
-range: 150
+range: 300
 reloadTime: 80
 shootSound: spark
 shootCone: 5
-damage: 5
+damage: 0.6
+consumes: {
+  power: 3.3
+}
 requirements: [
 ]
 category: turret
