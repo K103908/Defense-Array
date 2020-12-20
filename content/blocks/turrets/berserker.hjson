@@ -1,0 +1,45 @@
+type: ItemTurret
+localizedName: Berserker
+description: A Salvo upgraded to fire faster bursts with more bullets and quicker waves of bullets.
+health: 4000
+size: 3
+range: 300
+reloadTime: 30
+restitution: 0.03
+ammoEjectBack: 3
+cooldown: 0.03
+shootShake: 2
+burstSpacing: 3
+shots: 5
+spread: 0
+shootCone: 25
+ammoUseEffect: casing2
+shootEffect: shootBig
+rotateSpeed: 10
+recoilAmmount: 3
+ammoTypes: {
+  copper: {
+    bullet: standardCopper
+    damage: 425
+  }
+  graphite: {
+    bullet: standardDense
+    damage: 490
+     }
+  pyratite: {
+    bullet: standardIncendiary
+    damage: 500
+     }
+  silicon: {
+    bullet: standardHoming
+    damage: 510
+     }
+  thorium: {
+    bullet: standardThorium
+    damage: 550
+     }
+  }
+category: turret
+research: salvo
+requirements: [
+    ]
