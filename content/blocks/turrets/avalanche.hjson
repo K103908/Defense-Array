@@ -48,6 +48,6 @@ ammoTypes: {
   }
 }
 category: turret
-research: duo
+research: hail
 requirements: [
     ]
