@@ -19,6 +19,7 @@ shootSound: bang
 ammoTypes: {
     water: {
       knockback: 0.2
+      damage: 0.2
     }
     slag: {
       damage: 4
@@ -27,9 +28,11 @@ ammoTypes: {
     }
     oil: {
       drag: 0.04
+      damage: 0.2
     }
     cryofluid: {
        status: freezing
+       damage: 0.2
      }
   }
 category: turret
