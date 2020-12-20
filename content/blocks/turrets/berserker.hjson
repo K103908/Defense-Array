@@ -21,22 +21,62 @@ ammoTypes: {
   copper: {
     bullet: standardCopper
     damage: 425
+    width: 15
+    height: 18
+    lifetime: 30
+    speed: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
   }
   graphite: {
     bullet: standardDense
     damage: 490
+    width: 18
+    height: 24
+    lifetime: 30
+    speed: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
      }
   pyratite: {
     bullet: standardIncendiary
     damage: 500
+    width: 20
+    height: 24
+    lifetime: 30
+    speed: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+    status: burning
+    makeFire: true
      }
   silicon: {
     bullet: standardHoming
     damage: 510
+    width: 15
+    height: 18
+    lifetime: 30
+    speed: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+    homingPower: 0.8
+    homingRange: 100
+    reloadMultiplier: 1
      }
   thorium: {
     bullet: standardThorium
     damage: 550
+    width: 20
+    height: 26
+    lifetime: 30
+    speed: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
      }
   }
 category: turret
