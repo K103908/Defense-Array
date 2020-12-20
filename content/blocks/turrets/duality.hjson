@@ -4,8 +4,8 @@ description: The Duality is an upgrade from the parallax with increased range an
 health: 300
 hasPower: true
 size: 3
-force: 8
-scaledForce: 7
+force: 20
+scaledForce: 14
 range: 300
 reloadTime: 80
 shootSound: spark
