@@ -14,7 +14,7 @@ shootEffect: shootBig
 rotateSpeed: 10
 recoilAmmount: 1
 ammoTypes: {
-  copper: {
+  steel: {
     speed: 10
     damage: 225
     lifetime: 25
@@ -50,21 +50,24 @@ ammoTypes: {
         status: melting
         homingRange: 128
         homingPower: 0.01
+        fragVelocityMin: 0.9
+        fragVelocityMax: 1.1
       }
     }
   }
   lead: {
-    speed: 12
-    damage: 290
-    lifetime: 120
+    speed: 10
+    damage: 125
+    lifetime: 25
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 5
     hitShake: 1
     fragBullets: 5
     fragBullet: {
+      type: ShrapnelBulletType
       speed: 8.5
-      damage: 700
+      damage: 300
       width: 7
       height: 21
       hitEffect: pulverizeRed
@@ -77,8 +80,9 @@ ammoTypes: {
       fragVelocityMax: 1.1
       fragBullets: 5
       fragBullet: {
+        type: ShrapnelBulletType
         speed: 8
-        damage: 700
+        damage: 300
         width: 3.5
         height: 10.5
         lifetime: 25
@@ -87,9 +91,10 @@ ammoTypes: {
         status: melting
         homingRange: 128
         homingPower: 0.01
+        fragVelocityMin: 0.9
+        fragVelocityMax: 1.1
       }
-    }
-  }
+   }
 }
 category: turret
 research: scatter
