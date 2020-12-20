@@ -1,0 +1,19 @@
+type: PointDefenseTurret
+localizedName: Division
+description: Division is the upgrade to the Segment, better point blank defense turret with longer range to help defend better places.
+health: 500
+hasPower: true
+size: 3
+shootLength: 20
+bulletDamage: 100
+range: 300
+reloadTime: 9
+shootSound: spark
+shootCone: 5
+consumes: {
+  power: 3.3
+}
+requirements: [
+]
+category: turret
+research: segment
