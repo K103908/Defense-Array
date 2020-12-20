@@ -17,7 +17,7 @@ rotateSpeed: 10
 recoilAmmount: 1
 shootSound: bang
 ammoTypes: {
-  copper: {
+  steel: {
     type: artilleryBulletType
     speed: 5
     damage: 225
