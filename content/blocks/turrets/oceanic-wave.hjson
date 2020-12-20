@@ -16,6 +16,7 @@ shootSound: bang
 shots: 35
 ammoTypes: {
      water: {
+      type: LiquidBulletType
       lifetime: 49
       speed: 4
       knockback: 1.7
@@ -26,6 +27,7 @@ ammoTypes: {
       damage: 0.2
    }
     slag: {
+            type: LiquidBulletType
             lifetime: 49
             speed: 4
             knockback: 1.3
@@ -37,6 +39,7 @@ ammoTypes: {
             status: melting
     }
     oil: {
+            type: LiquidBulletType
             lifetime: 49
             speed: 4
             knockback: 1.3
@@ -48,6 +51,7 @@ ammoTypes: {
             status: tarred
     }
     cryofluid: {
+            type: LiquidBulletType
             lifetime: 49
             speed: 4
             knockback: 1.3
