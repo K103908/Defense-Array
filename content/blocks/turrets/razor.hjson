@@ -1,0 +1,40 @@
+type: ItemTurret
+localizedName: Razor
+description: A improved Fuze, a shotgun like approach.
+health: 150
+size: 4
+reloadtime: 30
+shootShake: 8
+range: 90
+recoilAmount: 5
+shots: 4
+spread: 15
+restitution: 0.1
+shootCone: 30
+shootSound: shotgun
+ammoTypes: {
+    titanium: {
+       type: shrapnelBulletType
+       length: brange
+       damage: 550
+       ammoMultiplier: 4
+       width: 25
+       reloadMultiplier: 2.3
+     }
+    thorium: {
+       type: shrapnelBulletType
+       length: brange
+       damage: 600
+       ammoMultiplier: 4
+       width: 28
+       reloadMultiplier: 2.5
+       toColor: pink
+       shootEffect: thoriumShoot
+       smokeEffect: thoriumShoot
+      }
+    }
+  requirements: [
+        ]
+ category: turrets
+ research: fuze
+ 
