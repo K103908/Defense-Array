@@ -7,7 +7,7 @@ reloadtime: 120
 shootShake: 8
 range: 90
 recoilAmount: 5
-shots: 4
+shots: 5
 spread: 15
 restitution: 0.1
 shootCone: 30
