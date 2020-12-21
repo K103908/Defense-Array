@@ -3,7 +3,7 @@ localizedName: Razor
 description: A improved Fuse, a shotgun like approach.
 health: 150
 size: 4
-reloadtime: 30
+reloadtime: 60
 shootShake: 8
 range: 90
 recoilAmount: 5
