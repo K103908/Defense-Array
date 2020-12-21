@@ -34,6 +34,6 @@ ammoTypes: {
     }
   requirements: [
         ]
- category: turrets
+ category: turret
  research: fuze
  
