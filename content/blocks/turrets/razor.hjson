@@ -15,7 +15,7 @@ shootSound: shotgun
 ammoTypes: {
     titanium: {
        type: shrapnelBulletType
-       length: brange
+       length: 100
        damage: 550
        ammoMultiplier: 4
        width: 25
@@ -23,7 +23,7 @@ ammoTypes: {
      }
     thorium: {
        type: shrapnelBulletType
-       length: brange
+       length: 100
        damage: 600
        ammoMultiplier: 4
        width: 28
