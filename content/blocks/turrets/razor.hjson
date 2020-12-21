@@ -28,7 +28,6 @@ ammoTypes: {
        ammoMultiplier: 4
        width: 28
        reloadMultiplier: 2.5
-       toColor: pink
        shootEffect: thoriumShoot
        smokeEffect: thoriumShoot
       }
