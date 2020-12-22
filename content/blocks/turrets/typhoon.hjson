@@ -1,0 +1,81 @@
+type: ItemTurret
+localizedName: Typhoon
+description: A cyclone turret upgraded with a faster rate of fire, larger range, and stronger bullets to attack
+health: 5800
+size: 4
+xRand: 4
+reloadTime: 4
+range: 350
+rotateSpeed: 10
+recoilAmount: 5
+inaccuracy: 10
+shootCone: 30
+shootSound: shootSnap
+ammoTypes: {
+       metaglass: {
+          lifetime: 70
+          speed: 5
+          ammoMultiplier: 5
+          shootEffect: shootSmall
+          reloadMultiplier: 0.8
+          width: 8
+          height: 10
+          hitEffect: flakExplosion
+          splashDamage: 33
+          splashDamageRadius: 40
+          fragBullet: fragGlassFrag
+          fragBullets: 10
+          explodeRange: 20
+          collidesGround: true
+      }
+       blast-compound: {
+          lifetime: 70
+          speed: 5
+          ammoMultiplier: 5
+          shootEffect: shootBig
+          reloadMultiplier: 0.8
+          width: 8
+          height: 10
+          hitEffect: flakExplosion
+          splashDamage: 66
+          splashDamageRadius: 110
+          status: blasted
+          statusDuration: 120
+      }
+       plastanium: {
+          lifetime: 70
+          speed: 5
+          ammoMultiplier: 5
+          shootEffect: shootSmall
+          reloadMultiplier: 0.8
+          width: 8
+          height: 10
+          hitEffect: plasticExplosion
+          splashDamage: 46
+          splashDamageRadius: 110
+          fragBullet: fragGlassFrag
+          fragBullets: 10
+          explodeRange: 20
+          collidesGround: true
+      }
+       surge-alloy: {
+          lifetime: 70
+          speed: 5
+          ammoMultiplier: 5
+          shootEffect: shootSmall
+          reloadMultiplier: 0.8
+          width: 8
+          height: 10
+          hitEffect: flakExplosion
+          splashDamage: 33
+          splashDamageRadius: 40
+          lightning: 4
+          lightningLength: 10
+          colldiesGround: true
+          explodeRange: 40
+      }
+     }
+category: turret
+research: cyclone
+requirements: [
+    ]
