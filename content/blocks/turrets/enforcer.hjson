@@ -47,7 +47,7 @@ ammoTypes: {
          homingPower: 0.8
          homingRange: 80
        }
-       pyratite: }
+       pyratite: {
          type: artillery
          hitEffect: flakExplosion
          knockback: 0.8
