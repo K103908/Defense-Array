@@ -1,0 +1,100 @@
+type: ItemTurret
+localizedName: Enforcer
+description: A ripple powered up to fire more shots at a larger range.
+targetAir: false
+health: 5500
+size: 4
+range: 400
+shots: 6
+inaccuracy: 15
+reloadTime: 60
+ammoEjectBack: 5
+ammoUseEffect: casing3Double
+ammoPerShot: 2
+cooldown: 0.03
+velocityInaccuracy: 0.2
+restitution: 0.02
+recoilAmount: 8
+shootShake: 4
+minRange: 40
+shootSound: artillery
+ammoTypes: {
+      graphite: {
+         type: artillery
+         hitEffect: flakExplosion
+         knockback: 0.8
+         lifetime: 80
+         speed: 5
+         width: 15
+         height: 15
+         collidesTiles: false
+         splashDamageRadius: 100
+         splashDamage: 66
+         damage: 50
+       }
+      silicon: {
+         type: artillery
+         hitEffect: flakExplosion
+         knockback: 0.8
+         lifetime: 80
+         speed: 5
+         width: 15
+         height: 15
+         collidesTiles: false
+         splashDamageRadius: 100
+         splashDamage: 66
+         damage: 50
+         homingPower: 0.8
+         homingRange: 80
+       }
+       pyratite: }
+         type: artillery
+         hitEffect: flakExplosion
+         knockback: 0.8
+         lifetime: 80
+         speed: 5
+         width: 15
+         height: 15
+         collidesTiles: false
+         splashDamageRadius: 100
+         splashDamage: 66
+         damage: 50
+         makeFire: true
+         status: melting
+         trailEffect: incendTrail
+       }
+       blastCompound: {
+         type: artillery
+         hitEffect: flakExplosion
+         knockback: 0.8
+         lifetime: 80
+         speed: 5
+         width: 15
+         height: 15
+         collidesTiles: false
+         splashDamageRadius: 100
+         splashDamage: 120
+         damage: 50
+         status: blasted
+         statusDuration: 120
+       }
+       plastanium: {
+         type: artillery
+         hitEffect: flakExplosion
+         knockback: 0.8
+         lifetime: 80
+         speed: 5
+         width: 15
+         height: 15
+         collidesTiles: false
+         splashDamageRadius: 123
+         splashDamage: 123
+         damage: 100
+         fragBullets: 10
+         fragBullet: artilleryPlasticFrag
+       }
+  }
+category: turret
+research: ripple
+requirements: [
+    ]
