@@ -20,7 +20,7 @@ minRange: 40
 shootSound: artillery
 ammoTypes: {
       graphite: {
-         type: artillery
+         type: artilleryBulletType
          hitEffect: flakExplosion
          knockback: 0.8
          lifetime: 80
@@ -33,7 +33,7 @@ ammoTypes: {
          damage: 50
        }
       silicon: {
-         type: artillery
+         type: artilleryBulletType
          hitEffect: flakExplosion
          knockback: 0.8
          lifetime: 80
@@ -48,7 +48,7 @@ ammoTypes: {
          homingRange: 80
        }
        pyratite: {
-         type: artillery
+         type: artilleryBulletType
          hitEffect: flakExplosion
          knockback: 0.8
          lifetime: 80
@@ -64,7 +64,7 @@ ammoTypes: {
          trailEffect: incendTrail
        }
        blastCompound: {
-         type: artillery
+         type: artilleryBulletType
          hitEffect: flakExplosion
          knockback: 0.8
          lifetime: 80
@@ -79,7 +79,7 @@ ammoTypes: {
          statusDuration: 120
        }
        plastanium: {
-         type: artillery
+         type: artilleryBulletType
          hitEffect: flakExplosion
          knockback: 0.8
          lifetime: 80
