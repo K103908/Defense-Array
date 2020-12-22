@@ -4,7 +4,7 @@ description: They are the one, we are the Colony.
 health: 3500
 size: 3
 range: 500
-reloadTime: 30
+reloadTime: 15
 alternate: true
 shots: 4
 spread: 6
