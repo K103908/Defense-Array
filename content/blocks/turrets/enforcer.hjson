@@ -63,7 +63,7 @@ ammoTypes: {
          status: melting
          trailEffect: incendTrail
        }
-       blastCompound: {
+       blast-compound: {
          type: artilleryBulletType
          hitEffect: flakExplosion
          knockback: 0.8
