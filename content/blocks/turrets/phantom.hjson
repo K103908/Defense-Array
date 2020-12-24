@@ -1,0 +1,61 @@
+type: ItemTurret
+localizedName: Phantom
+description: A larger spectre with bigger bullets and larger range.
+health: 7000
+size: 5
+range: 300
+reloadTime: 5
+coolantMultiplier: 0.5
+restitution: 0.1
+ammoUseEffect: casing3
+inaccuracy: 3
+recoilAmount: 3
+spread: 10
+alternate: true
+shots: 2
+shootShake: 3
+shootCone: 24
+shootSound: shootBig
+coolantUsage: 1
+ammoTypes: {
+    graphite: {
+      type: BasicBulletType
+      width: 16
+      height: 22
+      shootEffect: shootBig
+      damage: 110
+      ammoMultiplier: 4
+      lifetime: 30
+      speed: 10
+     }
+      pyratite: {
+       type: BasicBulletType
+       width: 17
+       height: 22
+       shootEffect: shootBig
+       damage: 120
+       ammoMultiplier: 4
+       makeFire: true
+       status: melting
+       lifetime: 30
+       speed: 10
+       knockback: 1.4
+      }
+       thorium: {
+        type: BasicBulletType
+        width: 17
+        height: 24
+        shootEffect: shootBig
+        damage: 160
+        ammoMultiplier: 4
+        lifetime: 30
+        speed: 10
+        pierceBuilding: true
+        pierceCap: 4
+        knockback: 1.4
+       }
+   }
+category: turret
+research: spectre
+requirements: [
+    ]
