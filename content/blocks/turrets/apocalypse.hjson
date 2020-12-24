@@ -17,6 +17,7 @@ loopSoundVolume: 2
 shootType: {
    type: continuousLaserBulletType
    length: 300
+   makeFire: true
    hitEffect: hitMeltdown
    drawSize: 420
    incendChance: 1
