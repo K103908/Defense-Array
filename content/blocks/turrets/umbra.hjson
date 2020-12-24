@@ -33,6 +33,8 @@ ammoTypes: {
          lifetime: 30
          speed: 20
          shootEffect: instShoot
+         width: 15
+         height: 18
          hitEffect: instHit
          smokeEffect: smokeCloud
          trailEffect: instTrail
