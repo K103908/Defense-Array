@@ -21,8 +21,8 @@ consumes: {
 ammoTypes: {
       surge-alloy: {
          type: PointBulletType
-         lifetime: 30
-         speed: 20
+         lifetime: 2
+         speed: 300
          shootEffect: instShoot
          width: 15
          height: 18
