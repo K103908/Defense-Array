@@ -1,0 +1,48 @@
+type: ItemTurret
+localizedName: Umbra
+description: A foreshadow powered up with longer range and higher power. But lower fire rate.
+health: 6600
+size: 5
+shootEffect: instShoot
+hitEffect: instHit
+smokeEffect: smokeCloud
+trailEffect: instTrail
+despawnEffect: instBomb
+trailSpacing: 20
+tileDamageMultiplier: 1
+hitShake: 6
+shootShake: 6
+ammoMultiplier: 2
+rotateSpeed: 2.5
+reloadTime: 300
+ammoUseEffect: casing3Double
+recoilAmount: 6
+restitution: 0.012
+cooldown: 0.012
+shots: 1
+shootCone: 2
+shootSound: railgun
+coolantMultiplier: 0.11
+coolantUsage: 1
+consumes: {
+  power: 3.6
+}
+ammoTypes: {
+      surge-alloy: {
+         shootEffect: instShoot
+         hitEffect: instHit
+         smokeEffect: smokeCloud
+         trailEffect: instTrail
+         despawnEffect: instBomb
+         trailSpacing: 20
+         tileDamageMultiplier: 1
+         hitShake: 6
+         shootShake: 6
+         ammoMultiplier: 2
+         damage: 2700
+     }
+   }
+requirements: [
+]
+category: turret
+research: foreshadow
