@@ -1,0 +1,30 @@
+type: GenericSmelter
+localizedName: "Steel Forge"
+description: Forges steel from sand, lead, and titanium. 
+liquidCapacity: 50
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 120
+craftEffect: pulverizeRedder
+updateEffect: pulverizeRed
+consumes: {
+  power: 12
+  items: {
+    items: [
+      sand/4
+      lead/2
+      titanium/3
+    ]
+  }
+}
+requirements: [
+  copper/200
+  lead/300
+]
+category: crafting
+research: phase-weaver
+ambientSound: message
+ambientSoundVolume: 0.5
+outputItem: steel/4
