@@ -2,7 +2,7 @@ type: ItemTurret
 localizedName: Berserker
 description: A Salvo upgraded to fire faster bursts with more bullets and quicker waves of bullets.
 health: 4000
-size: 5
+size: 3
 range: 300
 reloadTime: 30
 restitution: 0.03
