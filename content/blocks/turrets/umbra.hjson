@@ -41,7 +41,7 @@ ammoTypes: {
          trailEffect: instTrail
          trailScl: 5
          despawnEffect: instBomb
-         trailSpacing: 20
+         trailSpacing: 2
          tileDamageMultiplier: 1
          hitShake: 6
          shootShake: 6
