@@ -4,16 +4,6 @@ description: A foreshadow powered up with longer range and higher power. But low
 health: 6600
 size: 5
 range: 600
-shootEffect: instShoot
-hitEffect: instHit
-smokeEffect: smokeCloud
-trailEffect: instTrail
-despawnEffect: instBomb
-trailSpacing: 20
-tileDamageMultiplier: 1
-hitShake: 6
-shootShake: 6
-ammoMultiplier: 2
 rotateSpeed: 2.5
 reloadTime: 300
 ammoUseEffect: casing3Double
@@ -30,7 +20,7 @@ consumes: {
 }
 ammoTypes: {
       surge-alloy: {
-         type: RailBulletType
+         type: PointBulletType
          lifetime: 30
          speed: 20
          shootEffect: instShoot
