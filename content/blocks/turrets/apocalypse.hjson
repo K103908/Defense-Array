@@ -9,7 +9,7 @@ recoilAmount: 5
 range: 290
 reloadTime: 120
 firingMoveFract: 0.5
-shootDuration: 300
+shootDuration: 345
 powerUse: 10
 shootSound: LaserBig
 loopSound: beam
