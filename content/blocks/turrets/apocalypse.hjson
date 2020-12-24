@@ -1,4 +1,4 @@
-type: PowerTurret
+type: LaserTurret
 localizedName: Apocalypse
 description: A meltdown with a larger beam and more power behind its blast.
 size: 5
