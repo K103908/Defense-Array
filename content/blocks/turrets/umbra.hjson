@@ -3,6 +3,7 @@ localizedName: Umbra
 description: A foreshadow powered up with longer range and higher power. But lower fire rate.
 health: 6600
 size: 5
+range: 600
 shootEffect: instShoot
 hitEffect: instHit
 smokeEffect: smokeCloud
@@ -29,6 +30,8 @@ consumes: {
 }
 ammoTypes: {
       surge-alloy: {
+         lifetime: 30
+         speed: 20
          shootEffect: instShoot
          hitEffect: instHit
          smokeEffect: smokeCloud
