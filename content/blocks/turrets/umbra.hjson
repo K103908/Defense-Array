@@ -29,7 +29,7 @@ ammoTypes: {
          hitEffect: instHit
          smokeEffect: smokeCloud
          trailEffect: instTrail
-         trailScl: 5
+         trailScl: 10
          despawnEffect: instBomb
          trailSpacing: 20
          tileDamageMultiplier: 1
