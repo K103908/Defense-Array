@@ -7,7 +7,7 @@ shootEffect: instShoot
 shootCone: 40
 recoilAmount: 5
 range: 290
-reloadTime: 120
+reloadTime: 90
 firingMoveFract: 0.5
 shootDuration: 345
 powerUse: 10
@@ -17,7 +17,6 @@ loopSoundVolume: 2
 shootType: {
    type: ContinuousLaserBulletType
    length: 300
-   shootDuration: 345
    makeFire: true
    hitEffect: hitMeltdown
    drawSize: 420
