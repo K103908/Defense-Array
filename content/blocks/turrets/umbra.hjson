@@ -30,6 +30,7 @@ consumes: {
 }
 ammoTypes: {
       surge-alloy: {
+         bullet: PointBulletType
          lifetime: 30
          speed: 20
          shootEffect: instShoot
