@@ -23,6 +23,7 @@ shootType: {
    hitEffect: hitLancer
    damage: 295
    length: 255
+   width: 30
    despawnEffect: none
    hitSize: 4
    lifeTime: 16
