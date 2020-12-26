@@ -1,0 +1,12 @@
+name: Lightning Mine
+description: A mine that sends out powerful volts of lightning when a enemy comes into contact with it
+health: 50
+damage: 120
+tendrils: 10
+tileDamage: 10
+hasShadow: false
+length: 10
+requirements: [
+    ]
+category: effect
+research: shock-mine
