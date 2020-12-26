@@ -9,7 +9,10 @@ recoilAmount: 5
 range: 290
 reloadTime: 90
 firingMoveFract: 0.5
-shootDuration: 345
+chargeTime: 30
+chargeMaxDelay: 10
+chargeEffect: lancerLaserCharge
+shootDuration: 900
 powerUse: 10
 shootSound: LaserBig
 loopSound: beam
