@@ -22,6 +22,7 @@ shootType: {
    type: LaserBulletType
    hitEffect: hitLancer
    damage: 295
+   length: 255
    despawnEffect: none
    hitSize: 4
    lifeTime: 16
