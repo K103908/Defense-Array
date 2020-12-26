@@ -1,13 +1,15 @@
 type: ShockMine
 name: Lightning Mine
-description: A mine that sends out powerful volts of lightning when a enemy comes into contact with it
+description: A mine that sends out powerful volts of lightning when a enemy comes into contact with it. Has a use limit of 5 as steel made it so one use doesn't destroy it.
 health: 50
 damage: 120
 tendrils: 10
 tileDamage: 10
 hasShadow: false
 length: 10
-requirements: [
+requirements: [ 
+     steel/25
+     copper/25
     ]
 category: effect
 research: shock-mine
