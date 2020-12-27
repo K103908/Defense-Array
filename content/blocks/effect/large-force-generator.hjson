@@ -1,0 +1,27 @@
+type: ForceProjector
+localizedName: Upgraded Force Projector
+description: A shield projector that emits a larger shield with more health.
+size: 3
+health: 5000
+radius: 260
+phaseRadiusBoost: 112
+cooldownNormal: 0.1
+cooldownLiquid: 100
+consumes: {
+  power: 3
+  items: {
+    items: [
+      thorium/3
+    ]
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  lead/250
+  titanium/50
+  silicon/250
+  steel/250
+]
+category: effect
+research: force-projector
