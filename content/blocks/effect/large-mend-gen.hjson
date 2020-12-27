@@ -2,7 +2,7 @@ localizedName: Upgraded Mend Projector
 description: Large Mend Projector with a stronger repairing effect. 
 type: MendProjector
 health: 7000
-size: 2
+size: 3
 range: 240
 phaseRangeBoost: 80
 reload: 120
