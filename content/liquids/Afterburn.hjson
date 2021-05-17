@@ -1,0 +1,10 @@
+name: Afterburn
+description: An extremely effective coolant. Made by mixing different materials.
+temperature: 0.0015
+flammability: 0
+viscosity: 0.55
+heatCapacity: 2
+explosiveness: 0
+effect: freezing
+color: fbbdff
+research: steel
