@@ -70,6 +70,20 @@ ammoTypes: {
             damage: 2
             status: freezing
      }
+     afterburn: {
+            type: liquidBulletType
+            liquid: afterburn
+            lifetime: 69
+            speed: 6
+            knockback: 6
+            puddleSize: 18
+            orbSize: 10
+            drag: 0.002
+            ammoMultiplier: 0.8
+            statusDuration: 240
+            damage: 8
+            status: freezing
+     }
   }
 category: turret
 research: tsunami
