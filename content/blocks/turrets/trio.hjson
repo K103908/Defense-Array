@@ -36,4 +36,5 @@ ammoTypes: {
 category: turret
 research: duo
 requirements: [
+   copper/70
     ]
