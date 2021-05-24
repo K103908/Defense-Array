@@ -82,4 +82,8 @@ ammoTypes: {
 category: turret
 research: salvo
 requirements: [
+   copper/150
+   graphite/140
+   titanium/120
+   steel/60
     ]
