@@ -100,4 +100,6 @@ ammoTypes: {
 category: turret
 research: scatter
 requirements: [
+    copper/100
+    lead/60
     ]
