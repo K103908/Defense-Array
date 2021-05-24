@@ -88,4 +88,9 @@ ammoTypes: {
 category: turret
 research: tsunami
 requirements: [
+    lead/500
+    metaglass/200
+    titanium/300
+    thorium/130
+    steel/100
    ]
