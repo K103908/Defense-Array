@@ -40,6 +40,12 @@ ammoTypes: {
      }
    }
 requirements: [
+  copper/1500
+  metaglass/800
+  silicon/900
+  plastanium/400
+  surge-alloy/600
+  steel/400
 ]
 category: turret
 research: foreshadow
