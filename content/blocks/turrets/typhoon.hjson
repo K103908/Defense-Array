@@ -82,4 +82,8 @@ ammoTypes: {
 category: turret
 research: cyclone
 requirements: [
+    copper/275
+    titanium/150
+    plastanium/120
+    steel/60
     ]
