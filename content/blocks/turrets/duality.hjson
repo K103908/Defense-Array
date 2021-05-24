@@ -10,11 +10,14 @@ range: 300
 reloadTime: 80
 shootSound: spark
 shootCone: 5
-damage: 0.6
+damage: 1
 consumes: {
   power: 3.3
 }
 requirements: [
+    graphite/60
+    titanium/120
+    silicon/180
 ]
 category: turret
 research: parallax
