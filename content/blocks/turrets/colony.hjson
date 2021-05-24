@@ -71,4 +71,8 @@ ammoTypes: {
 category: turret
 research: swarmer
 requirements: [
+   graphite/60
+   titanium/60
+   silicon/60
+   plastanium/80
     ]
