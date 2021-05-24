@@ -58,4 +58,10 @@ ammoTypes: {
 category: turret
 research: spectre
 requirements: [
+    copper/1400
+    graphite/800
+    thorium/400
+    plastanium/300
+    surge-alloy/500
+    steel/500
     ]
