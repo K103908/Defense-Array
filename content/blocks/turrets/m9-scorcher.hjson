@@ -25,6 +25,7 @@ ammoTypes: {
      despawnEffect: none
      hitEffect: shootBigSmoke
      status: melting
+     status: burning
      pierce: true
      incendAmount: 500
   }
@@ -40,6 +41,7 @@ ammoTypes: {
     despawnEffect: fire
     hitEffect: shootPyraFlame
     status: melting
+    status: burning
     pierce: true
     incendAmount: 1000
    }
@@ -47,4 +49,6 @@ ammoTypes: {
 category: turret
 research: scorch
 requirements: [
+    copper/50
+    graphite/44
     ]
