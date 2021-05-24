@@ -45,7 +45,7 @@ ammoTypes: {
    }
 }
 category: turret
-research: inferno
+research: m9-scorcher
 requirements: [
     copper/1800
     titanium/900
