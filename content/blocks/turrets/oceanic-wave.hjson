@@ -88,4 +88,6 @@ ammoTypes: {
 category: turret
 research: wave
 requirements: [
+      lead/100
+      metaglass/80
    ]
