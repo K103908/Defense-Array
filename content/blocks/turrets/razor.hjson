@@ -33,6 +33,10 @@ ammoTypes: {
       }
     }
   requirements: [
+      copper/275
+      graphite/275
+      thorium/140
+      steel/160
         ]
  category: turret
  research: fuse
