@@ -24,7 +24,7 @@ ammoTypes: {
      lifetime: 15
      despawnEffect: none
      hitEffect: shootBigSmoke
-     status: melting, burning
+     status: burning
      pierce: true
      incendAmount: 500
   }
@@ -40,7 +40,6 @@ ammoTypes: {
     despawnEffect: fire
     hitEffect: shootPyraFlame
     status: melting
-    status: burning
     pierce: true
     incendAmount: 1000
    }
