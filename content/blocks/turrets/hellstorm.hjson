@@ -5,12 +5,13 @@ health: 2500
 size: 5
 range: 500
 reloadTime: 15
-shootCone: 25
+shootCone: 15
 ammoUseEffect: none
 shootEffect: shootSmallFlame
 rotateSpeed: 10
 recoilAmmount: 0
-shots: 75
+shots: 25
+shotSpread: 10
 shootSound: flame
 ammoTypes: {
   coal: {
