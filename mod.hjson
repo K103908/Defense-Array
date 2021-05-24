@@ -15,5 +15,11 @@ author:
   (Spriter, Hjsoner, [#5c0606]Lost in scripting hell[#FCC21B])
 
   '''
+  description:
+  '''
+  
+ Turret prices were added, if you have a suggestion in altering them let me know through github as i'm less active on discord. But keep in mind a Unit will be added to help you speed up the building process.
+ 
+  '''
 version: 3
 minGameVersion: 119
