@@ -29,3 +29,7 @@ requirements: [
 type: PowerTurret
 category: turret
 research: arc
+requirement: {
+    copper/75
+    lead/75
+   }
