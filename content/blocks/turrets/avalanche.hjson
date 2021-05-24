@@ -50,4 +50,6 @@ ammoTypes: {
 category: turret
 research: hail
 requirements: [
+    copper/70
+    graphite/28
     ]
