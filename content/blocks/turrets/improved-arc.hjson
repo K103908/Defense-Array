@@ -22,14 +22,10 @@ recoilAmount: 1
 cooldown: 0.02
 restitution: 0.02
 requirements: [
-  copper/150
-  lead/525
-  steel/225
+  copper/75
+  lead/75
+  steel/25
 ]
 type: PowerTurret
 category: turret
 research: arc
-requirement: {
-    copper/75
-    lead/75
-   }
