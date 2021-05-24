@@ -1,0 +1,55 @@
+type: ItemTurret
+localizedName: Hellstorm
+description: A massive flamethrower, made to deal with hordes of enemies, however fragile in health.
+health: 2500
+size: 5
+range: 500
+reloadTime: 15
+shootCone: 25
+ammoUseEffect: none
+shootEffect: shootSmallFlame
+rotateSpeed: 10
+recoilAmmount: 0
+shots: 75
+shootSound: flame
+ammoTypes: {
+  coal: {
+     type: BasicBulletType
+     speed: 50
+     damage: 325
+     width: 0.1
+     height: 0.1
+     shootEffect: shootPyraFlame
+     smokeEffect: shootPyraFlame
+     lifetime: 10
+     despawnEffect: none
+     hitEffect: shootBigSmoke
+     status: burning
+     pierce: true
+     incendAmount: 1000
+  }
+  pyratite: {
+     type: BasicBulletType
+    speed: 50
+    damage: 625
+    width: 0.1
+    height: 0.1
+    shootEffect: shootPyraFlame
+    smokeEffect: fire
+    lifetime: 10
+    despawnEffect: fire
+    hitEffect: shootPyraFlame
+    status: melting
+    pierce: true
+    incendAmount: 2000
+   }
+}
+category: turret
+research: inferno
+requirements: [
+    copper/1800
+    titanium/900
+    graphite/800
+    thorium/400
+    steel/600
+    ]
