@@ -34,5 +34,11 @@ shootType: {
   }
 research: meltdown
 requirements: [
+    copper/1800
+    lead/800
+    graphite/600
+    silicon/675
+    surge-alloy/625
+    steel/675
     ]
 category: turret
