@@ -2,7 +2,7 @@ localizedName: "Luster Drill"
 description: The Luster Drill, the fastest drilling system ever manufactured. Modified from the original Mesa Drill, While fast its rather costly.
 type: Drill
 size: 4
-tier: 8
+tier: 10
 drillTime: 4
 liquidBoostIntensity: 2.4
 drawRim: true
