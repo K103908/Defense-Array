@@ -1,4 +1,5 @@
-name: Mesa Drill
+localizedName: "Mesa Drill"
+description: faster drill than the blast, takes less power than the airblast. The next step they took in drilling materials.
 type: Drill
 size: 3
 tier: 6
@@ -6,7 +7,6 @@ drillTime: 4
 liquidBoostIntensity: 2.4
 drawRim: true
 requirements: [
-  thorium/30
   titanium/20
   lead/20
   copper/10
@@ -23,4 +23,4 @@ consumes: {
 category: production
 ambientSound: build
 ambientSoundVolume: 0.05
-research: blast-drill
+research: pneumatic-drill
