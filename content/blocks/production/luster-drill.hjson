@@ -1,0 +1,26 @@
+localizedName: "Luster Drill"
+description: The Luster Drill, the fastest drilling system ever manufactured. Modified from the original Mesa Drill, While fast its rather costly.
+type: Drill
+size: 4
+tier: 8
+drillTime: 4
+liquidBoostIntensity: 2.4
+drawRim: true
+requirements: [
+  titanium/20
+  lead/20
+  copper/10
+]
+consumes: {
+  power: 8
+  liquid: {
+    liquid: cryofluid
+    amount: 0.6
+    booster: true
+    optional: true
+  }
+}
+category: production
+ambientSound: build
+ambientSoundVolume: 0.05
+research: mesa-drill
