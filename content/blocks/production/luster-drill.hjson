@@ -7,9 +7,9 @@ drillTime: 4
 liquidBoostIntensity: 2.4
 drawRim: true
 requirements: [
-  titanium/20
-  lead/20
-  copper/10
+  titanium/100
+  lead/100
+  thorium/40
 ]
 consumes: {
   power: 8
