@@ -1,0 +1,29 @@
+type: LiquidConverter
+localizedName: "Afterburn Converter"
+description: "Turns Oil and Cryofluid into Afterburn, a new coolant."
+size: 3
+craftTime: 180
+hasPower: true
+liquidCapacity: 40
+outputLiquid: afterburn/240
+consumes: {
+  power: 1.75
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.4
+  }
+  liquid: {
+    liquid: oil
+    amount: 0.4
+  }
+}
+requirements: [
+  lead/120
+  silicon/75
+  titanium/45
+  steel/35
+]
+drawer: drawMixer
+category: crafting
+research: cryofluid-mixer
