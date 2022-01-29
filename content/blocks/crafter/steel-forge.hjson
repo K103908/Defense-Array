@@ -13,20 +13,17 @@ consumes: {
   power: 1.75
   items: {
     items: [
-      steel/2
+      lead/2
+      sand/2
+      titanium/2
     ]
   }
-  liquid: {
-    liquid: cryofluid
-    amount: 0.4
-  }
-}
 requirements: [
   copper/200
   lead/300
 ]
 category: crafting
-research: phase-weaver
+research: silicon-smelter
 ambientSound: message
 ambientSoundVolume: 0.5
 outputItem: steel/4
