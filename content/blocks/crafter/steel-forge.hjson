@@ -10,13 +10,15 @@ craftTime: 120
 craftEffect: pulverizeRedder
 updateEffect: pulverizeRed
 consumes: {
-  power: 12
+  power: 1.75
   items: {
     items: [
-      sand/4
-      lead/2
-      titanium/3
+      steel/2
     ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.4
   }
 }
 requirements: [
