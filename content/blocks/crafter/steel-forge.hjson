@@ -18,6 +18,7 @@ consumes: {
       titanium/2
     ]
   }
+}
 requirements: [
   copper/200
   lead/300
