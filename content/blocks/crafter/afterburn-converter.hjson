@@ -8,6 +8,9 @@ liquidCapacity: 40
 outputLiquid: afterburn/240
 consumes: {
   power: 1.75
+  items: {
+    items: [
+    ]
   }
   liquid: {
     liquid: cryofluid
