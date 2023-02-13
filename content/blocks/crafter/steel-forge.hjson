@@ -1,6 +1,6 @@
 type: GenericSmelter
-localizedName: "Steel Forge"
-description: Forges steel from sand, lead, and titanium. 
+localizedName: "Iron Extractor"
+description: Extracts iron from sand clumps and forms it into raw ore. 
 liquidCapacity: 50
 size: 3
 hasPower: true
@@ -13,9 +13,7 @@ consumes: {
   power: 1.74
     items: {
       items: [
-      sand/4
-      titanium/1
-      lead/2
+      sand/5
       ]
    }
 }
