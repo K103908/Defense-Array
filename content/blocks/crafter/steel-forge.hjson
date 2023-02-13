@@ -23,7 +23,7 @@ requirements: [
   lead/400
 ]
 category: crafting
-research: silicon-smelter
+research: Iron-Collector
 ambientSound: message
 ambientSoundVolume: 0.5
 outputItem: steel/4
