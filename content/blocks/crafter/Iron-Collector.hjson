@@ -1,0 +1,28 @@
+type: GenericSmelter
+localizedName: "Iron Extractor"
+description: Extracts iron from sand clumps and forms it into raw ore. 
+liquidCapacity: 50
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 120
+craftEffect: pulverizeRedder
+updateEffect: pulverizeRed
+consumes: {
+  power: 1.74
+    items: {
+      items: [
+      sand/5
+      ]
+   }
+}
+requirements: [
+  copper/200
+  lead/300
+]
+category: crafting
+research: silicon-smelter
+ambientSound: message
+ambientSoundVolume: 0.5
+outputItem: raw-iron/4
