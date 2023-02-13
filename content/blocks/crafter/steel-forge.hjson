@@ -1,6 +1,6 @@
 type: GenericSmelter
-localizedName: "Iron Extractor"
-description: Extracts iron from sand clumps and forms it into raw ore. 
+localizedName: "Steel Forge"
+description: Heats up and removes the impurity of the Iron to make Steal.
 liquidCapacity: 50
 size: 3
 hasPower: true
@@ -13,16 +13,17 @@ consumes: {
   power: 1.74
     items: {
       items: [
-      sand/5
+      raw-iron/1
+      coal/5
       ]
    }
 }
 requirements: [
-  copper/200
-  lead/300
+  copper/300
+  lead/400
 ]
 category: crafting
 research: silicon-smelter
 ambientSound: message
 ambientSoundVolume: 0.5
-outputItem: raw-iron/4
+outputItem: steel/4
