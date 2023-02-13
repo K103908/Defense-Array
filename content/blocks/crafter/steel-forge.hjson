@@ -25,4 +25,4 @@ category: crafting
 research: silicon-smelter
 ambientSound: message
 ambientSoundVolume: 0.5
-outputItem: steel/4
+outputItem: raw-iron/4
